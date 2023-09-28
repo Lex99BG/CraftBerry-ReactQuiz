@@ -1,0 +1,93 @@
+header {
+    min-height: 539px;
+    position: relative;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header::before {
+    content: '';
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.35;
+}
+.intro {
+    position: absolute;
+    color: #fff;
+    width: 583px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+.intro h1 {
+    font-size: 40px;
+    line-height: 44px;
+}
+.intro p {
+    width: 563px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.intro button {
+    margin-top: -12px;
+    cursor: pointer;
+    background-color: #C3EDFF;
+    color: #1C2635;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 40px;
+    transition-timing-function: ease-in;
+    transition: 0.3s;
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.49px;
+}
+.intro button:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 573px) {
+    .intro {
+      width: 100%;
+      height: auto;
+    }
+    .intro h1 {
+        font-size: 32px;
+    }
+    .intro p {
+      width: 100%;
+      height: auto;
+      font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 250px) {
+    header {
+      height: 615px;
+    }
+    .intro h1 {
+        font-size: 24px;
+        padding: 5px;
+    }
+    .intro p {
+      font-size: 12px;
+      padding: 5px;
+    }
+    .intro button{
+        font-size: 12px;
+        width: 80%;
+        height: auto;
+        padding: 5px;
+    }
+  }

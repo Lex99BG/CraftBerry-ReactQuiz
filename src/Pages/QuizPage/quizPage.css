@@ -1,0 +1,74 @@
+.website_wrapper {
+    min-height: 100vh;
+    margin: 0 auto;
+}
+.row {
+    min-height: 75vh;
+    align-content: center
+}
+.anwsers .btn-anwser {
+    margin: 10px;
+    text-align: left;
+    min-width: 269px;
+    border: 1px solid #5BC1ED;
+    border-radius: 8px;
+    padding: 14px 40px 14px 20px;
+    background-color: transparent;
+}
+.anwsers .btn-anwser:hover {
+    background-color: #5BC1ED!important;
+    color: #fff;
+}
+.btns button:first-of-type {
+    border: 0;
+    background-color: transparent;
+    text-decoration: underline;
+    margin: 10px;
+    cursor: pointer;
+    color: #000;
+}
+.btns button:first-of-type a{
+    color: #000;
+    
+}
+.btns button:first-of-type:hover , .btns button:first-of-type:hover a{
+    color: #5BC1ED;
+}
+.btns button:nth-of-type(2){
+    background-color: #C3EDFF;
+    border: none;
+    border-radius: 8px;
+    width: 269px;
+    padding: 14px 40px;
+}
+.btns button:nth-of-type(2):hover, .btns button:nth-of-type(2) a:hover{
+    background-color: #5BC1ED;
+    color: #fff;
+}
+.btns button:nth-of-type(2) a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 30px;
+}
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+/*PROGRES BAR*/
+.CircularProgressbar-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+path {
+    stroke-width: 5;
+}
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #AADDF3 !important;
+}
+.CircularProgressbar .CircularProgressbar-text {
+    fill: #1C2635 !important;
+    font-size: 20px;
+}
+.CircularProgressbar .CircularProgressbar-trail {
+    stroke: #EEF7FB !important;
+}
